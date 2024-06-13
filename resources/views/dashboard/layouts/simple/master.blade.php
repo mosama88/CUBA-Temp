@@ -41,12 +41,12 @@
     <!-- page-wrapper Start-->
     <div class="page-wrapper compact-wrapper" id="pageWrapper">
         <!-- Page Header Start-->
-        @include('admin.layouts.simple.header')
+        @include('dashboard.layouts.simple.header')
         <!-- Page Header Ends  -->
         <!-- Page Body Start-->
         <div class="page-body-wrapper">
             <!-- Page Sidebar Start-->
-            @include('admin.layouts.simple.sidebar')
+            @include('dashboard.layouts.simple.sidebar')
             <!-- Page Sidebar Ends-->
             <div class="page-body">
                 <div class="container-fluid">

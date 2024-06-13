@@ -14,8 +14,8 @@
                 <div class="login-card">
                     <div>
                         <div><a class="logo" href="{{ route('dashboard') }}"><img class="img-fluid for-light"
-                                    src="{{ asset('assets/images/logo/login.png') }}" alt="looginpage"><img
-                                    class="img-fluid for-dark" src="{{ asset('assets/images/logo/logo_dark.png') }}"
+                                    src="{{ asset('dashboard/assets/images/logo/logo.png') }}" alt="looginpage"><img
+                                    class="img-fluid for-dark" src="{{ asset('dashboard/assets/images/logo/logo_dark.png') }}"
                                     alt="looginpage"></a></div>
                         <div class="login-main">
                             <form class="theme-form needs-validation" novalidate="" method="POST"

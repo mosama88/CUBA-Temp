@@ -12,7 +12,7 @@
       </div>
     </form>
     <div class="header-logo-wrapper col-auto p-0">
-      <div class="logo-wrapper"><a href="{{ route('index')}}"><img class="img-fluid" src="{{ asset('assets/images/logo/logo.png') }}" alt=""></a></div>
+      <div class="logo-wrapper"><a href="{{ route('dashboard')}}"><img class="img-fluid" src="{{ asset('assets/images/logo/logo.png') }}" alt=""></a></div>
       <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="align-center"></i></div>
     </div>
     <div class="left-header col-xxl-5 col-xl-6 col-lg-5 col-md-4 col-sm-3 p-0">
@@ -142,7 +142,7 @@
               <li class="total">
                 <h6 class="mb-0">Order Total : <span class="f-right">$1000.00</span></h6>
               </li>
-              <li class="text-center"><a class="d-block mb-3 view-cart f-w-700" href="{{ route('cart')}}">Go to your cart</a><a class="btn btn-primary view-checkout" href="{{ route('checkout')}}">Checkout</a></li>
+              <li class="text-center"><a class="d-block mb-3 view-cart f-w-700" href="#">Go to your cart</a><a class="btn btn-primary view-checkout" href="#">Checkout</a></li>
             </ul>
           </div>
         </li>
